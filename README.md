@@ -1,11 +1,11 @@
 # Funcoes.Js
 Primeiro trabalho da disciplina: (linguagem de script ) como definir e criar funções em Javascript utilizando os formatos: declaration, expression e arrow.
-. Função Declaration
+#Função Declaration
 O que é: A função declaration é a forma tradicional de declarar uma função, usando a palavra-chave function. Exemplo: function minhaFuncao() {}.
 
-Benefício: Você pode chamar a função em qualquer lugar do código, mesmo antes dela ser escrita, porque o JavaScript "lembra" dela.
+#Benefício: Você pode chamar a função em qualquer lugar do código, mesmo antes dela ser escrita, porque o JavaScript "lembra" dela.
 
-Desvantagem: Como o JavaScript "lembra" da função, pode ser confuso e gerar bugs em códigos mais complexos.
+#Desvantagem: Como o JavaScript "lembra" da função, pode ser confuso e gerar bugs em códigos mais complexos.
  exemplo1
 function calculaIdade(nasceu) {
     let idade = 2025 - nasceu;
@@ -28,12 +28,12 @@ return numero1 + numero2;
 let resultado = somarNumeros(5, 3);
 console.log(resultado); 
 
-2. Função Expression
+2. #Função Expression
 O que é: A função expression é definida como uma expressão e fica guardada em uma variável. Exemplo: const minhaFuncao = function() {}.
 
-Benefício: Só pode ser usada depois de ser definida, o que deixa o código mais organizado.
+#Benefício: Só pode ser usada depois de ser definida, o que deixa o código mais organizado.
 
-Desvantagem: Não dá para chamar a função antes de ela ser escrita no código.
+#Desvantagem: Não dá para chamar a função antes de ela ser escrita no código.
 
 exemplo1
 const calcularDobro = function(numero) {
@@ -57,12 +57,12 @@ console.log(par_ou_impar(4));
 console.log(par_ou_impar(5)); 
 
 
-3. Arrow Function
+3. #Arrow Function
 O que é: A arrow function é uma maneira curta e moderna de escrever funções. Exemplo: const minhaFuncao = () => {}.
 
-Benefício: Ela é mais rápida de escrever e tem um comportamento diferente com o this, o que pode facilitar em alguns casos.
+#Benefício: Ela é mais rápida de escrever e tem um comportamento diferente com o this, o que pode facilitar em alguns casos.
 
-Desvantagem: Não funciona com o new (não cria objetos) e pode ser confusa para quem não entende bem o comportamento do this.
+#Desvantagem: Não funciona com o new (não cria objetos) e pode ser confusa para quem não entende bem o comportamento do this.
 
 
 exemplo1
